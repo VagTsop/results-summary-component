@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Results Summary Component</title>
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+
+  <!-- Fonts -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="summary-component">
+    <section class="result">
+      <h2 style="color: rgb(187 187 187);">Your Result</h2>
+      <div class="score">
+        <p class="score-number">76</p>
+        <p class="score-total">of 100</p>
+      </div>
+      <div style="display: flex; flex-direction: column; align-items: center;">
+        <h3 class="result-title">Great</h3>
+        <p class="result-message">You scored higher than 65% of the people who have taken these tests.</p>
+      </div>
+    </section>
+
+    <section class="summary">
+      <h2>Summary</h2>
+      <ul id="summary-list">
+        <!-- Dynamically populated -->
+      </ul>
+      <button id="continue-btn">Continue</button>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
